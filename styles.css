@@ -129,6 +129,28 @@ html, body {
     margin-top: auto;
 }
 
+.header-buttons {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right: 30px;
+    gap: 30px;
+}
+
+#button {
+    background-color: rgba(24,146,211,255);
+    height: 2.5em;
+    width: 7.5em;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
 .projects {
     grid-row: 2 / 4;
     grid-column: 2 / 3;
